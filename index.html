@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shop</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <div class="container">
+        <div class="pages">
+            <div class="content1">
+                <div class="top">
+                    <div class="col-12 col-lg-5">
+                      <div class="slider-for">
+                        <div><img class="utama" src="image/tanaman1.png"></div>
+                        <div><img class="utama" src="image/tanaman1.png"></div>
+                        <div><img class="utama" src="image/tanaman1.png"></div>
+                        <div><img class="utama" src="image/tanaman1.png"></div>
+                        <div><img class="utama" src="image/tanaman1.png"></div>
+                        <div><img class="utama" src="image/tanaman1.png"></div>
+                      </div>
+                        <div class="slider-nav">
+                            <img src="image/tanaman1.png" width="50px">
+                            <img src="image/tanaman1.png" width="50px">
+                            <img src="image/tanaman1.png" width="50px">
+                            <img src="image/tanaman1.png" width="50px">
+                            <img src="image/tanaman1.png" width="50px">
+                            <img src="image/tanaman1.png" width="50px">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <h3>Eriocaulon Cinereum High Quality Aquatic Plants</h3>
+                        <div class="penilaian">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                            <p>4.5</p>
+                            <p>__Terjual 100</p>
+                        </div>
+                        <hr>
+                        <h2>$2 <span>/ Plant</span></h2>
+                        <div class="box">  
+                            <label>Your Order</label>  <br>
+                            <div class="quantity-product">
+                              <div class="quantity">
+                                <button class="btn minus-btn disabled" type="button">-</button>
+                                <input type="text" id="quantity" value="0">
+                                <button class="btn plus-btn" type="button">+</button>
+                            </div>
+                            </div>
+                            <small>Min order: 1 Plant</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="center">
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'Detail')" id="defaultOpen">Detail Product</button>
+                        <button class="tablinks" onclick="openCity(event, 'Shipping')">Shipping</button>
+                        <button class="tablinks" onclick="openCity(event, 'Review')">Review</button>
+                      </div>
+                      
+                      <div id="Detail" class="tabcontent">
+                        <p>Plant name: <b style="color: #2DB878;">Aquatic Plants</b></p>
+                        <p>Varietas Name: <b style="color: #2DB878;">Eriocaulon Cinereum High Quality Aquatic Plants</b></p>
+                        <p>Description: </p>
+                        <b>
+                            This plant can survive in water, and does not need to be watered. This plant can survive in water, and does not need to be watered. This plant can survive in water, and does not need to be watered. This plant can survive in water, and does not need to be watered.
+                        </b>
+                      </div>
+                      
+                      <div id="Shipping" class="tabcontent">
+                        <b>Note:</b>
+                        <p>Pengiriman dilakukan 1 hari setelah pembayaran yang telah dilakukan</p> 
+                      </div>
+                      
+                      <div id="Review" class="tabcontent">
+                        <ol>
+                            <li>Bagus</li>
+                            <li>Packaging-nya responsive</li>
+                            <li>Pengiriman yang cepat</li>
+                        </ol>
+                      </div>
+                </div>
+            </div>
+            <div class="content2">
+                <div class="card">
+                    <h3>Summary</h3>
+                    <hr>
+                    <div class="left">
+                        <p>Plants Your Order</p>
+                        <p>Price</p>
+                    </div>
+                    <div class="right">
+                      <p id="item" value="1">0</p>
+                      <p id="price" value="2">0</p>
+                    </div>
+                    <button class="btn btn-success">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                          </svg>
+                          Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      document.querySelector(".minus-btn").setAttribute("disabled", "disabled");
+      var valueCount
+
+      function priceTotal() {
+          var total = valueCount * 2;
+          document.getElementById("price").innerText = "$ " + total
+      }
+
+      function item(){
+          document.getElementById("item").innerText =valueCount + " plant"
+      }
+
+      //plus button
+      document.querySelector(".plus-btn").addEventListener("click", function() {
+          valueCount = document.getElementById("quantity").value;
+
+          valueCount++;
+
+          document.getElementById("quantity").value = valueCount;
+
+          if (valueCount > 1) {
+              document.querySelector(".minus-btn").removeAttribute("disabled");
+              document.querySelector(".minus-btn").classList.remove("disabled")
+          }
+          priceTotal()
+          item()
+      })
+
+      //plus button
+      document.querySelector(".minus-btn").addEventListener("click", function() {
+          valueCount = document.getElementById("quantity").value;
+          valueCount--;
+          document.getElementById("quantity").value = valueCount
+
+          if (valueCount == 1) {
+              document.querySelector(".minus-btn").setAttribute("disabled", "disabled")
+          }
+          priceTotal()
+          item()
+      })
+  </script>
+    <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+
+            document.getElementById("defaultOpen").click();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+    </script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+      </script>
+
+
+    <script>
+
+$('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true,
+  fade: true,
+  autoplay: true,
+  autoplaySpeed: 2500,
+  infinite:true,
+  centerMode: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  centerMode: true,
+  infinite: true,
+  focusOnSelect: true
+});
+    </script>
+    
+</body>
+</html>
